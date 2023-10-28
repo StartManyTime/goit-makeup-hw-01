@@ -1,2 +1,2 @@
-# goit-makeup-hw-01
+# goit-makeup-hw-02
 stydy
