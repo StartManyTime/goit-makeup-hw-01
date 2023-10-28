@@ -196,11 +196,12 @@ a{
 
 .team-list {
         text-align: center;
-        background-color: #FFFFFF
+        /* background-color: #FFFFFF; */
 }
 
 .team-list-it {
         /* display: inline-block */
+        background-color: #FFFFFF;
 }
 
 .team-list-img {
