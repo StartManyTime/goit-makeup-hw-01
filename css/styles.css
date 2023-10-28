@@ -30,7 +30,7 @@ a{
 }
 
 .hd-logo-title {
-    color: #2E2F42;
+    /* color: #2E2F42 */
 }
 
 .hd-mnu{}
@@ -196,8 +196,7 @@ a{
 
 .team-list {
         text-align: center;
-        background-color: #FFFFFF 
-
+        /* background-color: #FFFFFF */
 }
 
 .team-list-it {
@@ -220,10 +219,10 @@ a{
 /* ------------------------------portfolio-------------------------- */
 /* .ptfl {} */
 .ptfl-tl {
-    color: #2e2f42 ;
+    /* color: #2e2f42 ; */
     font-weight: 500;
     font-size: 20px;
-    
+
 
 }
 
