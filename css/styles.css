@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto',sans-serif;
-    color: #2E2F42;
+    color: #434455;/* #2E2F42 */
     background-color: white;
 }
 
@@ -20,17 +20,17 @@ a{
 .hd-nav {}
 
 .hd-logo {
-    color: #2E2F42;/* var(--IRIS, )*/
-    font-family: Raleway;
+    color: #4D5AE5;/* var(#2E2F42--IRIS, )*/
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;/* 116.667% 21px*/
+    line-height: 1.17;/* 116.667% 21px*/
     letter-spacing: 0.03em;/* 0.54px*/
     text-transform: uppercase;
 }
 
 .hd-logo-title {
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 .hd-mnu{}
@@ -47,7 +47,7 @@ a{
 .hd-mnu-lnk {
     color: #434455;/* var(--var(--SLATE, )*/
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500; /*  400 */
     line-height: 1.5; /* 150% 24px */
     letter-spacing: 0.02em; /* 0.32px */
 }
@@ -58,10 +58,16 @@ a{
     text-decoration: underline;
 }
 
+.hd-mnu-lnk:focus{
+    color: #404bbf;
+}
+
 
 
 /* <address>*/
-.cont {}
+.cont {
+    font-style: normal
+}
 
 .cont-list {}
 
@@ -84,6 +90,10 @@ a{
     text-decoration: underline;
 }
 
+.cont-link:focus{
+    color: #404bbf;
+}
+
 .scn-tle{ /* .team-title  .ptfl-tl*/
     color: #2E2F42; /*var(--NAVY-BLUE, )*/
     text-align: center;
@@ -94,7 +104,7 @@ a{
     text-transform: capitalize;
 }
 
-.scn-sbtl{/*.bnfts-st{}  .team-list-st{} .ptfl-list-st{} )*/
+.scn-sbt{/*.bnfts-st{}  .team-list-st{} .ptfl-list-st{} )*/
     color: #2E2F42; /* var(--NAVY-BLUE, )*/
     font-family: Roboto;
     font-size: 20px;
@@ -137,7 +147,7 @@ a{
 .guise-btn {
     /* Button Text */
     color: #FFF; /*var(--WHITE, ) */
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; /* 150% 24px*/
@@ -153,6 +163,11 @@ a{
 .guise-btn:hover{
     background-color: #404BBF;
     border-color: #FFF;
+}
+
+.guise-btn:focus{
+    background-color: #404BBF;
+    cursor: pointer;
 }
 
 
@@ -180,7 +195,9 @@ a{
 /* .team-title {} */
 
 .team-list {
-        text-align: center
+        text-align: center;
+        background-color: #FFFFFF 
+
 }
 
 .team-list-it {
