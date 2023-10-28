@@ -196,7 +196,7 @@ a{
 
 .team-list {
         text-align: center;
-        /* background-color: #FFFFFF */
+        background-color: #FFFFFF
 }
 
 .team-list-it {
@@ -239,9 +239,9 @@ a{
     height: 300px */
 }
 
-.ptfl-list-st {
-    /* text-align: left; */
-}
+ /*.ptfl-list-st {
+    text-align: left; 
+}*/
 
 .ptfl-list-vc {
     /* text-align: left; */
