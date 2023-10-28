@@ -41,7 +41,6 @@ a{
     font-weight: 500;
     line-height: 1.5;/* 150% 24px */
     letter-spacing: 0.02em;/* 0.32px */
-    /* display: inline-block */
 }
 
 .hd-mnu-lnk {
@@ -71,9 +70,7 @@ a{
 
 .cont-list {}
 
-.cont-list-it {
-        /* display: inline-block */
-}
+.cont-list-it {}
 
 .cont-link {
         color:  #434455; /* Body var(--SLATE,) */
@@ -152,9 +149,7 @@ a{
     font-weight: 500;
     line-height: 1.5; /* 150% 24px*/
     letter-spacing: 0.04em; /*0.64px*/
-
     background-color:#4D5AE5 ;
-    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
 }
 
 .guise-btn:hover{
@@ -195,7 +190,6 @@ a{
 }
 
 .team-list-it {
-        /* display: inline-block */
         background-color: #FFFFFF;
 }
 
@@ -224,9 +218,7 @@ a{
     /* text-align: center */
 }
 
-.ptfl-list-it {
-    /* display: inline-block */
-}
+.ptfl-list-it {}
 
 .ptfl-list-img {}
 
@@ -235,7 +227,7 @@ a{
 }*/
 
 .ptfl-list-vc {
-    /* text-align: left; */
+
 }
 
 /* ----------------------------------------------------------------- */
