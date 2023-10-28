@@ -196,7 +196,7 @@ a{
 
 .team-list {
         text-align: center;
-        /* background-color: #FFFFFF; */
+        background-color: #FFFFFF;
 }
 
 .team-list-it {
@@ -210,11 +210,11 @@ a{
 }
 
 .team-list-st {
-    text-align: center;
+    /* text-align: center; */
 }
 
 .team-list-vc {
-    text-align: center;
+    /* text-align: center; */
 }
 /* ----------------------------------------------------------------- */
 /* ------------------------------portfolio-------------------------- */
